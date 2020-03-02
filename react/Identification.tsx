@@ -24,7 +24,7 @@ const messages = defineMessages({
   emailLabel: {
     id: 'store/checkout-identification-email-label',
   },
-  contineButtonLabel: {
+  continueButtonLabel: {
     id: 'store/checkout-identification-continue-button-label',
   },
   benefitsLabel: {
@@ -141,7 +141,7 @@ const Identification: React.FC = () => {
           {loading ? (
             <Spinner size={24} />
           ) : (
-            <FormattedMessage {...messages.contineButtonLabel} />
+            <FormattedMessage {...messages.continueButtonLabel} />
           )}
         </Button>
       </div>
