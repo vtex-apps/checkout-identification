@@ -1,8 +1,8 @@
 {
   "store/checkout-payment-step-title": "Pago",
-  "store/checkout-identification-presentation": "Por favor, ingrese su correo electónico",
+  "store/checkout-identification-presentation": "Por favor, ingrese su correo electrónico",
   "store/checkout-identification-secure-badge-title": "Seguro",
-  "store/checkout-identification-email-label": "Correo electónico",
+  "store/checkout-identification-email-label": "Correo electrónico",
   "store/checkout-identification-continue-button-label": "Continuar",
   "store/checkout-identification-benefits-label": "Tu podrás",
   "store/checkout-identification-saved-addresses-message": "Usa direcciones y tarjetas guardadas",
