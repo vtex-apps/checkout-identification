@@ -1,6 +1,5 @@
 {
   "name": "checkout-identification",
-  "version": "0.0.0",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
@@ -32,5 +31,6 @@
     "prettier": "^1.19.1",
     "react": "^16.13.0",
     "typescript": "^3.8.3"
-  }
+  },
+  "version": "0.0.0"
 }

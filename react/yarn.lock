@@ -411,22 +411,22 @@ tslib@^1.10.0, tslib@^1.9.3:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.11.1.tgz#eb15d128827fbee2841549e171f45ed338ac7e35"
   integrity sha512-aZW88SY8kQbU7gpV19lN24LtXh/yD4ZZg6qieAJDDg+YBsJcSmLGK9QpnUjAKVG/xefmvJGd1WUmfpT/g6AJGA==
 
-"vtex.checkout-graphql@https://lucas--checkoutio.myvtex.com/_v/private/typings/linked/v1/vtex.checkout-graphql@0.23.0+build1582915320/public/@types/vtex.checkout-graphql":
-  version "0.23.0"
-  resolved "https://lucas--checkoutio.myvtex.com/_v/private/typings/linked/v1/vtex.checkout-graphql@0.23.0+build1582915320/public/@types/vtex.checkout-graphql#5db187d240e0692356e9499ae9103df8a1f1efcb"
+"vtex.checkout-graphql@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.checkout-graphql@0.24.0/public/@types/vtex.checkout-graphql":
+  version "0.24.0"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.checkout-graphql@0.24.0/public/@types/vtex.checkout-graphql#37b5ba2720c336c1b3ec55832e3b0ebb45e8433b"
 
-"vtex.checkout-resources@https://lucas--checkoutio.myvtex.com/_v/private/typings/linked/v1/vtex.checkout-resources@0.19.0+build1582915328/public/@types/vtex.checkout-resources":
-  version "0.19.0"
-  resolved "https://lucas--checkoutio.myvtex.com/_v/private/typings/linked/v1/vtex.checkout-resources@0.19.0+build1582915328/public/@types/vtex.checkout-resources#4b52983eed989d1b4e06f954e791066228d22ceb"
+"vtex.checkout-resources@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.checkout-resources@0.20.0/public/@types/vtex.checkout-resources":
+  version "0.20.0"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.checkout-resources@0.20.0/public/@types/vtex.checkout-resources#7955e5cd3f81112d0aa2182ded204ae7a4304d76"
 
-"vtex.render-runtime@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.93.1/public/@types/vtex.render-runtime":
-  version "8.93.1"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.93.1/public/@types/vtex.render-runtime#b87ad35b37bf797d98367ca793fd1a0e44c09200"
+"vtex.render-runtime@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.93.2/public/@types/vtex.render-runtime":
+  version "8.93.2"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.93.2/public/@types/vtex.render-runtime#58d534da726c650b57017b311b14f89e92607a2a"
 
 "vtex.store-components@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-components@3.104.3/public/_types/react":
   version "0.0.0"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-components@3.104.3/public/_types/react#fa7a0347e046eab3dd768998fc9252b2c0dd5aef"
 
-"vtex.styleguide@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.112.5/public/@types/vtex.styleguide":
-  version "9.112.5"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.112.5/public/@types/vtex.styleguide#1428421ae787af80a21f882d251092f2e41760ed"
+"vtex.styleguide@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.112.6/public/@types/vtex.styleguide":
+  version "9.112.6"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.112.6/public/@types/vtex.styleguide#5d3e236c41b12b1bdbaaf5fa03d9882290fcf523"
