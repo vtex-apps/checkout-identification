@@ -1,0 +1,12 @@
+{
+  "store/checkout-payment-step-title": "Pagamento",
+  "store/checkout-identification-presentation": "Por favor, digite o seu email",
+  "store/checkout-identification-secure-badge-title": "Seguro",
+  "store/checkout-identification-email-label": "Email",
+  "store/checkout-identification-continue-button-label": "Continuar",
+  "store/checkout-identification-benefits-label": "Você poderá",
+  "store/checkout-identification-saved-addresses-message": "Usar endereços e cartões salvos",
+  "store/checkout-identification-gift-cards-message": "Aplicar seus cupons salvos",
+  "store/checkout-identification-order-updates-message": "Receber atualizações do seu pedido",
+  "store/checkout-identification-invalid-email": "O email é inválido"
+}

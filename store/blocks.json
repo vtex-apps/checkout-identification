@@ -1,0 +1,11 @@
+{
+  "checkout-identification": {
+    "blocks": ["image#default"]
+  },
+  "image#default": {
+    "props": {
+      "src": "https://storecomponents.vtexassets.com/arquivos/store-theme-logo-mobile.png",
+      "maxHeight": 24
+    }
+  }
+}
