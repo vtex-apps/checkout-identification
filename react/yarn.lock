@@ -419,14 +419,14 @@ tslib@^1.10.0, tslib@^1.9.3:
   version "0.20.1"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.checkout-resources@0.20.1/public/@types/vtex.checkout-resources#174c30341a50e5ca77fe4f038124a6cb17b810d1"
 
-"vtex.render-runtime@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.93.2/public/@types/vtex.render-runtime":
-  version "8.93.2"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.93.2/public/@types/vtex.render-runtime#58d534da726c650b57017b311b14f89e92607a2a"
+"vtex.render-runtime@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.94.0/public/@types/vtex.render-runtime":
+  version "8.94.0"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.94.0/public/@types/vtex.render-runtime#e79eb9a66801476b66e7ed354a83a7ff1f1c72c7"
 
 "vtex.store-components@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-components@3.104.3/public/_types/react":
   version "0.0.0"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-components@3.104.3/public/_types/react#fa7a0347e046eab3dd768998fc9252b2c0dd5aef"
 
-"vtex.styleguide@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.112.6/public/@types/vtex.styleguide":
-  version "9.112.6"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.112.6/public/@types/vtex.styleguide#5d3e236c41b12b1bdbaaf5fa03d9882290fcf523"
+"vtex.styleguide@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.112.7/public/@types/vtex.styleguide":
+  version "9.112.7"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.112.7/public/@types/vtex.styleguide#882ace93cc403f2bc633b4e584d5d1dfbafaaeb0"

@@ -1,11 +1,11 @@
 import classNames from 'classnames'
 import React, { useState, useEffect } from 'react'
-import { useLazyQuery, useMutation } from 'react-apollo'
+import { useLazyQuery } from 'react-apollo'
 import { defineMessages, FormattedMessage, useIntl } from 'react-intl'
 import { IconCheck, Input, Button, Divider, Spinner } from 'vtex.styleguide'
 import { useChildBlock, ExtensionPoint, useRuntime } from 'vtex.render-runtime'
+import { OrderProfile } from 'vtex.order-profile'
 import ProfileQuery from 'vtex.checkout-resources/QueryProfile'
-import UpdateOrderFormProfileMutation from 'vtex.checkout-resources/MutationUpdateOrderFormProfile'
 import {
   CheckoutProfile,
   QueryCheckoutProfileArgs,
@@ -51,12 +51,11 @@ const Identification: React.FC = () => {
     { checkoutProfile: CheckoutProfile },
     QueryCheckoutProfileArgs
   >(ProfileQuery)
-  const [updateOrderFormProfile, { loading: mutationLoading }] = useMutation(
-    UpdateOrderFormProfileMutation
-  )
+  const { setOrderProfile } = OrderProfile.useOrderProfile()
 
   const [email, setEmail] = useState('')
   const [showError, setShowError] = useState(false)
+  const [loading, setLoading] = useState(false)
   const hasLogoBlock = !!useChildBlock({ id: 'logo' })
   const { navigate } = useRuntime()
   const intl = useIntl()
@@ -72,6 +71,7 @@ const Identification: React.FC = () => {
       return
     }
 
+    setLoading(true)
     queryProfile({ variables: { email } })
   }
 
@@ -87,25 +87,25 @@ const Identification: React.FC = () => {
     let isCurrent = true
 
     if (data.checkoutProfile?.userProfileId != null) {
-      updateOrderFormProfile({
-        variables: { email: data.checkoutProfile?.userProfile?.email },
-      }).then(() => {
+      setOrderProfile(data.checkoutProfile?.userProfile?.email).then(() => {
         if (!isCurrent) {
           return
         }
 
+        setLoading(false)
+
         navigate({ page: 'store.checkout.container' })
       })
     } else {
+      setLoading(false)
+
       navigate({ page: 'store.checkout.container' })
     }
 
     return () => {
       isCurrent = false
     }
-  }, [data, navigate, queryLoading, updateOrderFormProfile])
-
-  const loading = queryLoading || mutationLoading
+  }, [data, navigate, queryLoading, setOrderProfile])
 
   return (
     <form
