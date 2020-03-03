@@ -1,15 +1,9 @@
-/* eslint-disable import/no-duplicates, import/order */
+/* eslint-disable import/no-duplicates, import/order, import/export */
 
 declare module 'vtex.checkout-resources/QueryProfile' {
-  import * as Resources from 'vtex.checkout-resources'
-
-  const { QueryProfile } = Resources
-
-  export default QueryProfile
+  export { default } from 'vtex.checkout-resources/react/QueryProfile'
 }
 
 declare module 'vtex.checkout-resources/MutationUpdateOrderFormProfile' {
-  import { MutationUpdateOrderFormProfile } from 'vtex.checkout-resources'
-
-  export default MutationUpdateOrderFormProfile
+  export { default } from 'vtex.checkout-resources/react/MutationUpdateOrderFormProfile'
 }
