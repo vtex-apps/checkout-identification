@@ -1,15 +1,15 @@
 /* eslint-disable import/no-duplicates, import/order */
 
 declare module 'vtex.checkout-resources/QueryProfile' {
-  import { DocumentNode } from 'graphql'
+  import * as Resources from 'vtex.checkout-resources'
 
-  const query: DocumentNode
-  export default query
+  const { QueryProfile } = Resources
+
+  export default QueryProfile
 }
 
 declare module 'vtex.checkout-resources/MutationUpdateOrderFormProfile' {
-  import { DocumentNode } from 'graphql'
+  import { MutationUpdateOrderFormProfile } from 'vtex.checkout-resources'
 
-  const query: DocumentNode
-  export default query
+  export default MutationUpdateOrderFormProfile
 }

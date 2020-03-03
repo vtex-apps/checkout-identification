@@ -415,9 +415,9 @@ tslib@^1.10.0, tslib@^1.9.3:
   version "0.24.0"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.checkout-graphql@0.24.0/public/@types/vtex.checkout-graphql#37b5ba2720c336c1b3ec55832e3b0ebb45e8433b"
 
-"vtex.checkout-resources@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.checkout-resources@0.20.0/public/@types/vtex.checkout-resources":
-  version "0.20.0"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.checkout-resources@0.20.0/public/@types/vtex.checkout-resources#7955e5cd3f81112d0aa2182ded204ae7a4304d76"
+"vtex.checkout-resources@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.checkout-resources@0.20.1/public/@types/vtex.checkout-resources":
+  version "0.20.1"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.checkout-resources@0.20.1/public/@types/vtex.checkout-resources#174c30341a50e5ca77fe4f038124a6cb17b810d1"
 
 "vtex.render-runtime@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.93.2/public/@types/vtex.render-runtime":
   version "8.93.2"
