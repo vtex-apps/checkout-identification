@@ -411,13 +411,17 @@ tslib@^1.10.0, tslib@^1.9.3:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.11.1.tgz#eb15d128827fbee2841549e171f45ed338ac7e35"
   integrity sha512-aZW88SY8kQbU7gpV19lN24LtXh/yD4ZZg6qieAJDDg+YBsJcSmLGK9QpnUjAKVG/xefmvJGd1WUmfpT/g6AJGA==
 
-"vtex.checkout-graphql@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.checkout-graphql@0.24.0/public/@types/vtex.checkout-graphql":
+"vtex.checkout-graphql@https://lucas--checkoutio.myvtex.com/_v/private/typings/linked/v1/vtex.checkout-graphql@0.24.0+build1583340197/public/@types/vtex.checkout-graphql":
   version "0.24.0"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.checkout-graphql@0.24.0/public/@types/vtex.checkout-graphql#37b5ba2720c336c1b3ec55832e3b0ebb45e8433b"
+  resolved "https://lucas--checkoutio.myvtex.com/_v/private/typings/linked/v1/vtex.checkout-graphql@0.24.0+build1583340197/public/@types/vtex.checkout-graphql#9e821e77ee30bb0a42e36e67298fc5a4bb68dd45"
 
-"vtex.checkout-resources@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.checkout-resources@0.20.1/public/@types/vtex.checkout-resources":
-  version "0.20.1"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.checkout-resources@0.20.1/public/@types/vtex.checkout-resources#174c30341a50e5ca77fe4f038124a6cb17b810d1"
+"vtex.checkout-resources@https://lucas--checkoutio.myvtex.com/_v/private/typings/linked/v1/vtex.checkout-resources@0.20.3+build1583340193/public/@types/vtex.checkout-resources":
+  version "0.20.3"
+  resolved "https://lucas--checkoutio.myvtex.com/_v/private/typings/linked/v1/vtex.checkout-resources@0.20.3+build1583340193/public/@types/vtex.checkout-resources#165451e8ecfbce2e9c17fac80447d98beb57ff05"
+
+"vtex.order-profile@https://lucas--checkoutio.myvtex.com/_v/private/typings/linked/v1/vtex.order-profile@0.0.0+build1583340597/public/@types/vtex.order-profile":
+  version "0.0.0"
+  resolved "https://lucas--checkoutio.myvtex.com/_v/private/typings/linked/v1/vtex.order-profile@0.0.0+build1583340597/public/@types/vtex.order-profile#a5ab7003513d5f1c008b0eddeef55fb82694335b"
 
 "vtex.render-runtime@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.94.0/public/@types/vtex.render-runtime":
   version "8.94.0"

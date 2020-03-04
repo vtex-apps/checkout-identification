@@ -4,7 +4,7 @@ import { useLazyQuery } from 'react-apollo'
 import { defineMessages, FormattedMessage, useIntl } from 'react-intl'
 import { IconCheck, Input, Button, Divider, Spinner } from 'vtex.styleguide'
 import { useChildBlock, ExtensionPoint, useRuntime } from 'vtex.render-runtime'
-import { OrderProfile } from 'vtex.order-profile'
+import { useOrderProfile } from 'vtex.order-profile/OrderProfile'
 import ProfileQuery from 'vtex.checkout-resources/QueryProfile'
 import {
   CheckoutProfile,
@@ -51,7 +51,7 @@ const Identification: React.FC = () => {
     { checkoutProfile: CheckoutProfile },
     QueryCheckoutProfileArgs
   >(ProfileQuery)
-  const { setOrderProfile } = OrderProfile.useOrderProfile()
+  const { setOrderProfile } = useOrderProfile()
 
   const [email, setEmail] = useState('')
   const [showError, setShowError] = useState(false)
@@ -87,7 +87,9 @@ const Identification: React.FC = () => {
     let isCurrent = true
 
     if (data.checkoutProfile?.userProfileId != null) {
-      setOrderProfile(data.checkoutProfile?.userProfile?.email).then(() => {
+      setOrderProfile({
+        email: data.checkoutProfile?.userProfile?.email ?? '',
+      }).then(() => {
         if (!isCurrent) {
           return
         }
