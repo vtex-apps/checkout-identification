@@ -16,6 +16,7 @@
   "dependencies": {
     "vtex.checkout-graphql": "0.x",
     "vtex.checkout-resources": "0.x",
+    "vtex.order-profile": "0.x",
     "vtex.styleguide": "9.x",
     "vtex.store-components": "3.x"
   },
