@@ -86,23 +86,21 @@ const Identification: React.FC = () => {
 
     let isCurrent = true
 
-    if (data.checkoutProfile?.userProfileId != null) {
-      setOrderProfile({
-        email: data.checkoutProfile?.userProfile?.email ?? '',
-      }).then(() => {
-        if (!isCurrent) {
-          return
-        }
+    setOrderProfile({
+      email: data.checkoutProfile?.userProfile?.email ?? '',
+    }).then(() => {
+      if (!isCurrent) {
+        return
+      }
 
-        setLoading(false)
-
-        navigate({ page: 'store.checkout.container' })
-      })
-    } else {
       setLoading(false)
 
-      navigate({ page: 'store.checkout.container' })
-    }
+      navigate({
+        page: 'store.checkout.container',
+        query:
+          data.checkoutProfile?.userProfileId != null ? 'autocompleted=1' : '',
+      })
+    })
 
     return () => {
       isCurrent = false
