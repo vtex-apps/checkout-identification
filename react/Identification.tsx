@@ -1,5 +1,5 @@
 import classNames from 'classnames'
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import { useLazyQuery } from 'react-apollo'
 import { defineMessages, FormattedMessage, useIntl } from 'react-intl'
 import { IconCheck, Input, Button, Divider, Spinner } from 'vtex.styleguide'
@@ -54,6 +54,7 @@ const Identification: React.FC = () => {
   const { setOrderProfile } = useOrderProfile()
 
   const [email, setEmail] = useState('')
+  const emailRef = useRef(email)
   const [showError, setShowError] = useState(false)
   const [loading, setLoading] = useState(false)
   const hasLogoBlock = !!useChildBlock({ id: 'logo' })
@@ -63,6 +64,10 @@ const Identification: React.FC = () => {
   const handleEmailChange: React.ChangeEventHandler<HTMLInputElement> = evt => {
     setEmail(evt.target.value)
   }
+
+  useEffect(() => {
+    emailRef.current = email
+  }, [email])
 
   const emailValid = EMAIL_REGEX.test(email)
 
@@ -86,29 +91,17 @@ const Identification: React.FC = () => {
 
     let isCurrent = true
 
-    if (
-      data.checkoutProfile?.userProfileId != null &&
-      data.checkoutProfile.userProfile != null
-    ) {
-      setOrderProfile({
-        email: data.checkoutProfile.userProfile.email,
-      }).then(() => {
-        if (!isCurrent) {
-          return
-        }
+    setOrderProfile({
+      email: emailRef.current,
+    }).then(() => {
+      if (!isCurrent) {
+        return
+      }
 
-        setLoading(false)
-
-        navigate({ page: 'store.checkout.container' })
-      })
-    } else {
       setLoading(false)
 
-      navigate({
-        page: 'store.checkout.container',
-        query: `email=${data.checkoutProfile?.userProfile?.email ?? ''}`,
-      })
-    }
+      navigate({ page: 'store.checkout.container' })
+    })
 
     return () => {
       isCurrent = false
