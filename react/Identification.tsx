@@ -88,7 +88,7 @@ const Identification: React.FC = () => {
 
     if (data.checkoutProfile?.userProfileId != null) {
       setOrderProfile({
-        email: data.checkoutProfile?.userProfile?.email ?? '',
+        email: data.checkoutProfile!.userProfile!.email,
       }).then(() => {
         if (!isCurrent) {
           return
@@ -101,7 +101,10 @@ const Identification: React.FC = () => {
     } else {
       setLoading(false)
 
-      navigate({ page: 'store.checkout.container' })
+      navigate({
+        page: 'store.checkout.container',
+        query: `email=${data.checkoutProfile?.userProfile?.email ?? ''}`,
+      })
     }
 
     return () => {
