@@ -86,9 +86,12 @@ const Identification: React.FC = () => {
 
     let isCurrent = true
 
-    if (data.checkoutProfile?.userProfileId != null) {
+    if (
+      data.checkoutProfile?.userProfileId != null &&
+      data.checkoutProfile.userProfile != null
+    ) {
       setOrderProfile({
-        email: data.checkoutProfile!.userProfile!.email,
+        email: data.checkoutProfile.userProfile.email,
       }).then(() => {
         if (!isCurrent) {
           return
