@@ -71,7 +71,9 @@ const Identification: React.FC = () => {
 
   const emailValid = EMAIL_REGEX.test(email)
 
-  const handleSubmit = () => {
+  const handleSubmit: React.FormEventHandler<HTMLFormElement> = evt => {
+    evt.preventDefault()
+
     if (!email || !emailValid) {
       return
     }
