@@ -6,6 +6,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.2] - 2020-03-20
+
 ### Changed
 
 - Remove conditional to only update email in orderForm if `userProfileId !== null`.
