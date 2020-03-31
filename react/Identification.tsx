@@ -2,7 +2,14 @@ import classNames from 'classnames'
 import React, { useState, useEffect, useRef } from 'react'
 import { useLazyQuery } from 'react-apollo'
 import { defineMessages, FormattedMessage, useIntl } from 'react-intl'
-import { IconCheck, Input, Button, Divider, Spinner } from 'vtex.styleguide'
+import {
+  IconCheck,
+  IconArrowBack,
+  Input,
+  Button,
+  Divider,
+  Spinner,
+} from 'vtex.styleguide'
 import { useChildBlock, ExtensionPoint, useRuntime } from 'vtex.render-runtime'
 import { useOrderProfile } from 'vtex.order-profile/OrderProfile'
 import ProfileQuery from 'vtex.checkout-resources/QueryProfile'
@@ -11,15 +18,11 @@ import {
   QueryCheckoutProfileArgs,
 } from 'vtex.checkout-graphql'
 
-import IconLock from './icons/IconLock'
 import styles from './Identification.css'
 
 const messages = defineMessages({
-  title: {
-    id: 'store/checkout-identification-presentation',
-  },
-  secure: {
-    id: 'store/checkout-identification-secure-badge-title',
+  backToStoreLabel: {
+    id: 'store/checkout-identification-back-to-store-label',
   },
   emailLabel: {
     id: 'store/checkout-identification-email-label',
@@ -71,6 +74,10 @@ const Identification: React.FC = () => {
 
   const emailValid = EMAIL_REGEX.test(email)
 
+  const handleBackToStoreClick = () => {
+    navigate({ page: 'store.checkout.cart' })
+  }
+
   const handleSubmit: React.FormEventHandler<HTMLFormElement> = evt => {
     evt.preventDefault()
 
@@ -116,23 +123,32 @@ const Identification: React.FC = () => {
       onSubmit={handleSubmit}
       className={classNames(styles.box, 'ba-ns br3 b--muted-4 pa4 pa8-ns')}
     >
+      <div className={classNames(styles.buttonContainer, 'mb7')}>
+        <Button
+          size="small"
+          variation="tertiary"
+          noUpperCase
+          neutral
+          onClick={handleBackToStoreClick}
+        >
+          <span className="mr3">
+            <IconArrowBack />
+          </span>
+          <span className="ml1">
+            {intl.formatMessage(messages.backToStoreLabel)}
+          </span>
+        </Button>
+      </div>
+
       <div className="flex justify-between items-center">
         <ExtensionPoint id={hasLogoBlock ? 'logo' : 'image'} />
       </div>
 
-      <span className="f4 dib mt7">
-        <FormattedMessage {...messages.title} />
+      <span className="f4 dib mt7 mb5">
+        <FormattedMessage {...messages.emailLabel} />
       </span>
 
-      <div className="mt4 mb7 flex items-center">
-        <IconLock />{' '}
-        <span className="c-muted-1 f6 b dib ml3">
-          <FormattedMessage {...messages.secure} />
-        </span>
-      </div>
-
       <Input
-        label={<FormattedMessage {...messages.emailLabel} />}
         value={email}
         onBlur={handleEmailBlur}
         onChange={handleEmailChange}

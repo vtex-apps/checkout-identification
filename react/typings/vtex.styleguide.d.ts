@@ -7,6 +7,8 @@ declare module 'vtex.styleguide' {
 
   export const Button: React.FC
 
+  export const ButtonWithIcon: React.FC
+
   export const Input: React.FC
 
   export const Spinner: React.FC<{ size?: number; block?: boolean }>
@@ -14,4 +16,5 @@ declare module 'vtex.styleguide' {
   export const IconCheck: React.FC
   export const IconClose: React.FC
   export const IconEdit: React.FC
+  export const IconArrowBack: React.FC
 }

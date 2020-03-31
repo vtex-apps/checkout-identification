@@ -1,7 +1,5 @@
 {
-  "store/checkout-payment-step-title": "Pago",
-  "store/checkout-identification-presentation": "Por favor, ingrese su correo electrónico",
-  "store/checkout-identification-secure-badge-title": "Seguro",
+  "store/checkout-identification-back-to-store-label": "Volver a la Tienda",
   "store/checkout-identification-email-label": "Correo electrónico",
   "store/checkout-identification-continue-button-label": "Continuar",
   "store/checkout-identification-benefits-label": "Tu podrás",
