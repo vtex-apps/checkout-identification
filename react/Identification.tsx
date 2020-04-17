@@ -149,6 +149,8 @@ const Identification: React.FC = () => {
       </span>
 
       <Input
+        autoComplete="email "
+        type="email"
         value={email}
         onBlur={handleEmailBlur}
         onChange={handleEmailChange}
