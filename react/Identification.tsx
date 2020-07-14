@@ -109,7 +109,7 @@ const Identification: React.FC = () => {
 
       setLoading(false)
 
-      navigate({ page: 'store.checkout.container' })
+      navigate({ page: 'store.checkout.order-form' })
     })
 
     return () => {
