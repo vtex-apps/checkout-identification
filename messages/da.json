@@ -1,0 +1,10 @@
+{
+  "store/checkout-identification-back-to-store-label": "Tilbage til butik",
+  "store/checkout-identification-email-label": "E-mail",
+  "store/checkout-identification-continue-button-label": "Fortsæt",
+  "store/checkout-identification-benefits-label": "Du vil være i stand til at",
+  "store/checkout-identification-saved-addresses-message": "Brug gemte adresser og kort",
+  "store/checkout-identification-gift-cards-message": "Anvend dine gemte gavekort",
+  "store/checkout-identification-order-updates-message": "Modtag opdateringer om din ordre",
+  "store/checkout-identification-invalid-email": "E-mail er ugyldig"
+}

@@ -1,0 +1,10 @@
+{
+  "store/checkout-identification-back-to-store-label": "ストアに戻る",
+  "store/checkout-identification-email-label": "Eメール",
+  "store/checkout-identification-continue-button-label": "続ける",
+  "store/checkout-identification-benefits-label": "以下のことができるようになります",
+  "store/checkout-identification-saved-addresses-message": "保存した住所とカードを使う",
+  "store/checkout-identification-gift-cards-message": "保存したギフトカードを適用する",
+  "store/checkout-identification-order-updates-message": "注文へのアップデートを受け取る",
+  "store/checkout-identification-invalid-email": "Eメールが無効です"
+}

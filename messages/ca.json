@@ -1,0 +1,10 @@
+{
+  "store/checkout-identification-back-to-store-label": "Enrere a la botiga",
+  "store/checkout-identification-email-label": "Adreça electrònica",
+  "store/checkout-identification-continue-button-label": "Continua",
+  "store/checkout-identification-benefits-label": "Podràs",
+  "store/checkout-identification-saved-addresses-message": "Fes servir les adreces i les targetes desades",
+  "store/checkout-identification-gift-cards-message": "Aplica les teves targetes de regal desades",
+  "store/checkout-identification-order-updates-message": "Rep informació sobre la teva comanda",
+  "store/checkout-identification-invalid-email": "L'adreça electrònica no és vàlida"
+}

@@ -1,0 +1,10 @@
+{
+  "store/checkout-identification-back-to-store-label": "Nazaj v trgovino",
+  "store/checkout-identification-email-label": "E-pošta",
+  "store/checkout-identification-continue-button-label": "Nadaljuj",
+  "store/checkout-identification-benefits-label": "Lahko boste",
+  "store/checkout-identification-saved-addresses-message": "Uporabite shranjene naslove in kartice",
+  "store/checkout-identification-gift-cards-message": "Uporabite shranjene darilne kartice",
+  "store/checkout-identification-order-updates-message": "Prejemajte posodobitve o svojem naročilu",
+  "store/checkout-identification-invalid-email": "E-pošta je neveljavna"
+}

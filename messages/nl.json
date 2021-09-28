@@ -1,0 +1,10 @@
+{
+  "store/checkout-identification-back-to-store-label": "Terug naar winkel",
+  "store/checkout-identification-email-label": "E-mail",
+  "store/checkout-identification-continue-button-label": "Doorgaan",
+  "store/checkout-identification-benefits-label": "U zult in staat zijn om",
+  "store/checkout-identification-saved-addresses-message": "Gebruik opgeslagen adressen en kaarten",
+  "store/checkout-identification-gift-cards-message": "Gebruik uw gespaarde cadeaubonnen",
+  "store/checkout-identification-order-updates-message": "Ontvang updates over uw bestelling",
+  "store/checkout-identification-invalid-email": "Email is ongeldig"
+}

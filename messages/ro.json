@@ -1,0 +1,10 @@
+{
+  "store/checkout-identification-back-to-store-label": "Înapoi la Magazin",
+  "store/checkout-identification-email-label": "E-mail",
+  "store/checkout-identification-continue-button-label": "Continuă",
+  "store/checkout-identification-benefits-label": "Vei putea",
+  "store/checkout-identification-saved-addresses-message": "Să folosești adresele și cardurile salvate",
+  "store/checkout-identification-gift-cards-message": "Să aplici cardurile tale de cadou salvate",
+  "store/checkout-identification-order-updates-message": "Să primești actualizări despre comanda ta",
+  "store/checkout-identification-invalid-email": "E-mailul este invalid"
+}

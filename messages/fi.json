@@ -1,0 +1,10 @@
+{
+  "store/checkout-identification-back-to-store-label": "Takaisin kauppaan",
+  "store/checkout-identification-email-label": "Sähköpostiosoite",
+  "store/checkout-identification-continue-button-label": "Jatka",
+  "store/checkout-identification-benefits-label": "Pystyt",
+  "store/checkout-identification-saved-addresses-message": "Käytä tallennettuja osoitteita ja kortteja",
+  "store/checkout-identification-gift-cards-message": "Käytä tallennettuja lahjakortteja",
+  "store/checkout-identification-order-updates-message": "Pyydä päivityksiä tilauksestasi",
+  "store/checkout-identification-invalid-email": "Sähköpostiosoite on virheellinen"
+}

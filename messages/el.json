@@ -1,0 +1,10 @@
+{
+  "store/checkout-identification-back-to-store-label": "Επιστροφή στο Κατάστημα",
+  "store/checkout-identification-email-label": "Email",
+  "store/checkout-identification-continue-button-label": "Συνεχίστε",
+  "store/checkout-identification-benefits-label": "Θα μπορείτε να",
+  "store/checkout-identification-saved-addresses-message": "Χρήση αποθηκευμένων διευθύνσεων και καρτών",
+  "store/checkout-identification-gift-cards-message": "Εφαρμογή των αποθηκευμένων καρτών δώρου",
+  "store/checkout-identification-order-updates-message": "Λήψη ενημερώσεων σχετικά με την παραγγελία σας",
+  "store/checkout-identification-invalid-email": "Το email είναι άκυρο"
+}

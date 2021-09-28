@@ -1,0 +1,10 @@
+{
+  "store/checkout-identification-back-to-store-label": "Повернутися в магазин",
+  "store/checkout-identification-email-label": "Ел. пошта",
+  "store/checkout-identification-continue-button-label": "Продовжити",
+  "store/checkout-identification-benefits-label": "Ви зможете",
+  "store/checkout-identification-saved-addresses-message": "Використовувати збережені адреси й картки",
+  "store/checkout-identification-gift-cards-message": "Застосовувати збережені подарункові картки",
+  "store/checkout-identification-order-updates-message": "Отримувати оновлення про стан вашого замовлення",
+  "store/checkout-identification-invalid-email": "Невірна ел. пошта"
+}

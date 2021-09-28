@@ -1,0 +1,10 @@
+{
+  "store/checkout-identification-back-to-store-label": "Vissza az Üzletbe",
+  "store/checkout-identification-email-label": "E-mail",
+  "store/checkout-identification-continue-button-label": "Folytatás",
+  "store/checkout-identification-benefits-label": "A következőkre lesz lehetősége:",
+  "store/checkout-identification-saved-addresses-message": "Mentett címek és kártyák használata",
+  "store/checkout-identification-gift-cards-message": "Mentett ajándékkártyák alkalmazása",
+  "store/checkout-identification-order-updates-message": "Frissítések fogadása a megrendelésről",
+  "store/checkout-identification-invalid-email": "Az e-mail-cím érvénytelen"
+}

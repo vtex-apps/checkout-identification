@@ -1,0 +1,10 @@
+{
+  "store/checkout-identification-back-to-store-label": "스토어로 돌아가기",
+  "store/checkout-identification-email-label": "이메일",
+  "store/checkout-identification-continue-button-label": "계속",
+  "store/checkout-identification-benefits-label": "다음을 할 수 있습니다",
+  "store/checkout-identification-saved-addresses-message": "저장된 주소 및 카드 사용",
+  "store/checkout-identification-gift-cards-message": "저장된 기프트 카드 적용",
+  "store/checkout-identification-order-updates-message": "주문에 대한 업데이트 받기",
+  "store/checkout-identification-invalid-email": "이메일이 잘못되었습니다."
+}

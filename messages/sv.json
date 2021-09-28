@@ -1,0 +1,10 @@
+{
+  "store/checkout-identification-back-to-store-label": "Återgå till butik",
+  "store/checkout-identification-email-label": "E-post",
+  "store/checkout-identification-continue-button-label": "Fortsätt",
+  "store/checkout-identification-benefits-label": "Du kommer att kunna",
+  "store/checkout-identification-saved-addresses-message": "Använda sparade adresser och kort",
+  "store/checkout-identification-gift-cards-message": "Tillämpa dina sparade presentkort",
+  "store/checkout-identification-order-updates-message": "Få uppdateringar om din beställning",
+  "store/checkout-identification-invalid-email": "E-postadressen är ogiltig"
+}

@@ -1,0 +1,10 @@
+{
+  "store/checkout-identification-back-to-store-label": "Zpět do obchodu",
+  "store/checkout-identification-email-label": "E-mail",
+  "store/checkout-identification-continue-button-label": "Pokračovat",
+  "store/checkout-identification-benefits-label": "Budete moci",
+  "store/checkout-identification-saved-addresses-message": "Použít uložené adresy a karty",
+  "store/checkout-identification-gift-cards-message": "Použít uložené dárkové karty",
+  "store/checkout-identification-order-updates-message": "Získat informace o objednávce",
+  "store/checkout-identification-invalid-email": "E-mail je neplatný"
+}

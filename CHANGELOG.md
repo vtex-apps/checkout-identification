@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- I18n Ar, Ca, Cs, Da, De, El, Fi, Fr, Hu, Ja, Ko, Nl, No, Pl, Ro, Ru, Sk, Sl, Sv and Uk.
+- Crowdin configuration file
+
 ## [0.2.1] - 2020-07-14
 ### Fixed
 - Route name for the main checkout page.

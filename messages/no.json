@@ -1,0 +1,10 @@
+{
+  "store/checkout-identification-back-to-store-label": "Tilbake til butikken",
+  "store/checkout-identification-email-label": "E-post",
+  "store/checkout-identification-continue-button-label": "Fortsett",
+  "store/checkout-identification-benefits-label": "Du vil kunne",
+  "store/checkout-identification-saved-addresses-message": "Bruk lagrede adresser og kort",
+  "store/checkout-identification-gift-cards-message": "Bruk de lagrede gavekortene dine",
+  "store/checkout-identification-order-updates-message": "Motta oppdateringer om bestillingen din",
+  "store/checkout-identification-invalid-email": "E-posten er gyldig"
+}

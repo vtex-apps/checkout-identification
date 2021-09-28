@@ -1,0 +1,10 @@
+{
+  "store/checkout-identification-back-to-store-label": "Zurück zu Store",
+  "store/checkout-identification-email-label": "E-Mail",
+  "store/checkout-identification-continue-button-label": "Weiter",
+  "store/checkout-identification-benefits-label": "Sie werden in der Lage sein",
+  "store/checkout-identification-saved-addresses-message": "Gespeicherte Adressen und Karten verwenden",
+  "store/checkout-identification-gift-cards-message": "Ihre gespeicherten Geschenkkarten anwenden",
+  "store/checkout-identification-order-updates-message": "Erhalten Sie Updates zu Ihrer Bestellung",
+  "store/checkout-identification-invalid-email": "E-Mail ist ungültig"
+}
