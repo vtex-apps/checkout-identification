@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- Arabic translation.
+
 ## [0.2.1] - 2020-07-14
 ### Fixed
 - Route name for the main checkout page.

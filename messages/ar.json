@@ -1,0 +1,10 @@
+{
+  "store/checkout-identification-back-to-store-label": "عودة للمتجر",
+  "store/checkout-identification-email-label": "البريد الإلكتروني",
+  "store/checkout-identification-continue-button-label": "مواصلة",
+  "store/checkout-identification-benefits-label": "ستتمكّن من",
+  "store/checkout-identification-saved-addresses-message": "استخدم العناوين والبطاقات المحفوظة",
+  "store/checkout-identification-gift-cards-message": "قم بتطبيق بطاقات الهدايا المحفوظة الخاصة بك",
+  "store/checkout-identification-order-updates-message": "تلقى تحديثات حول طلبك",
+  "store/checkout-identification-invalid-email": "عنوان بريد إلكتروني غير صالح"
+}
